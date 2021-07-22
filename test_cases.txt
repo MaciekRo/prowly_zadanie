@@ -1,0 +1,18 @@
+TEST CASE 1
+Test case description: searching "prowly" in google images
+Enviroment: Mozzila firefox 90.0.1., Windows 7 64bit
+Test data: "prowly"
+Precondition: opened internet browser
+Test steps:
+    1. Enter https://www.google.com/ into browser bar and push enter.
+    2. Enter "prowly" into search engine and push enter.
+    3. Click images tab
+
+Expected results:
+User will see logo with the company name on the first place
+
+Actual results:
+User see the company name with logo on the first place
+
+Status:
+Pass
