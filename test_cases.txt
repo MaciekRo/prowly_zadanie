@@ -1,4 +1,4 @@
-TEST CASE 1
+TEST CASE 1A
 Test case description: searching "prowly" in google images
 Enviroment: Mozzila firefox 90.0.1., Windows 7 64bit
 Test data: "prowly"
@@ -10,9 +10,26 @@ Test steps:
 
 Expected results:
 User will see logo with the company name on the first place
-
 Actual results:
 User see the company name with logo on the first place
-
 Status:
 Pass
+
+TEST CASE 2A
+Test case description: searching "prowly" in google video.
+Enviroment: Mozzila firefox 90.0.1., Windows 7 64bit.
+Test data: "prowly"
+Precondition: opened internet browser.
+Test steps:
+    1. Enter https://www.google.com/ into browser bar and push enter
+    2. Enter "prowly" into search engine and push enter
+    3. Click videos tab
+    4. Click movie first from the top of the list
+
+Expected results:
+User will be moved to product page with brief and promo video
+Actual results:
+User after moving to product page is able to read about product and see promo video.
+Status:
+Pass
+
