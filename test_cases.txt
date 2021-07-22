@@ -53,6 +53,23 @@ Pass
 
 
 TEST CASE 1B
+Test case description: searching "prowly" word and sort results by date.
+Enviroment: Mozzila firefox 90.0.1., Windows 7 64bit.
+Test data: "prowly"
+Precondition: opened internet browser.
+Test steps:
+    1. Enter https://www.google.com/ into browser bar and push enter
+    2. Enter "prowly" into search engine and push enter
+    3. Click Tools button
+    4. From menu below select button "Any time"
+    5. From drop-down menu select option "Past 24hours"
+
+Expected results:
+Search engine will show results contains "prowly" word from last 24 hours.
+Actual results:
+User is able to see web pages contains "prowly" word from last 24 hours.
+Status:
+Pass
 
 
 
