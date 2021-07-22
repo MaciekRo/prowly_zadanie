@@ -33,3 +33,22 @@ User after moving to product page is able to read about product and see promo vi
 Status:
 Pass
 
+TEST CASE 3A
+Test case description: searching prices by typing "prowly" in google search engine.
+Enviroment: Mozzila firefox 90.0.1., Windows 7 64bit.
+Test data: "prowly"
+Precondition: opened internet browser.
+Test steps:
+    1. Enter https://www.google.com/ into browser bar and push enter
+    2. Enter "prowly" into search engine and push enter
+    3. Click sublink "pricing plans" from the first result from the top
+
+Expected results:
+User will be moved to page where he is able to choose which price fits to him.
+Actual results:
+User after clicking proper link is moving to pricing page.
+Status:
+Pass
+
+
+
